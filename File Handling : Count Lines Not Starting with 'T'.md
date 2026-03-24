@@ -13,7 +13,19 @@ To write a Python program that counts the number of lines in a text file `story.
 
 ## 🧾 Program
 Add code here
+```
+count = 0
+
+with open("story.txt", "r") as file:
+    for line in file:
+        if not line.startswith('T'):
+            count += 1
+
+print(count)
+```
 
 ## Output
+<img width="769" height="254" alt="image" src="https://github.com/user-attachments/assets/16ec744e-dd4b-40d2-986a-91a6edf79a92" />
 
 ## Result
+Thus the code run successfully!
